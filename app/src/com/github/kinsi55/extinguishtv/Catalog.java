@@ -97,9 +97,10 @@ final class Catalog {
                     "com.amazon.tv.matter", "com.amazon.tv.mattercohost"),
             optional("Fire TV Channels", "Amazon's free streaming channels (also uploads playback quality logs).",
                     "com.amazon.franktvinput", "com.amazon.hedwig"),
-            optional("HbbTV / red button", "Interactive broadcast features (Vewd). Live TV from the built-in tuner "
-                            + "(cable / satellite) can stay black without it, so only disable it to free RAM if you "
-                            + "don't watch TV channels through the tuner.",
+            optional("HbbTV / Vewd TV stack", "HbbTV (red button) and, on many TVs, the live TV inputs themselves: "
+                            + "the tuner is initialized through Vewd's browser engine, so cable / satellite / antenna "
+                            + "channels stay black if this is disabled. Only disable it to free RAM if you don't watch "
+                            + "TV channels through the built-in tuner.",
                     "com.vewd.core.service", "com.vewd.core.tis", "com.vewd.core.tvapp",
                     "com.vewd.core.fvpplayer", "com.vewd.core.fvpsign"),
             optional("Built-in AirPlay", "Receive AirPlay from Apple devices.",

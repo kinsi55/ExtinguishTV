@@ -24,7 +24,7 @@ mkdir -p "$OUT/gen" "$OUT/classes" "$OUT/dex"
 
 "$BT/aapt2" compile --dir app/res -o "$OUT/res.zip"
 "$BT/aapt2" link -I "$JAR" --manifest app/AndroidManifest.xml --java "$OUT/gen" \
-    --min-sdk-version 24 --target-sdk-version 29 --version-code 3 --version-name 1.2 \
+    --min-sdk-version 24 --target-sdk-version 29 --version-code 4 --version-name 1.3 \
     -o "$OUT/unaligned.apk" "$OUT/res.zip"
 
 # core-lambda-stubs provides LambdaMetafactory, which android.jar lacks; d8 desugars the lambdas.
