@@ -1,0 +1,7 @@
+build/
+
+# Release signing key and its password: never commit, back up separately.
+keystore.jks
+keystore.password
+*.jks
+*.keystore

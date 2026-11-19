@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fire extinguisher on a 108x108 adaptive-icon canvas; artwork stays inside the ~66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:translateX="-3" android:translateY="-1">
+        <!-- Hose from the valve down to the nozzle -->
+        <path
+            android:pathData="M58,40 C70,40 73,50 71,62"
+            android:strokeColor="#263238"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+        <!-- Nozzle -->
+        <path
+            android:fillColor="#263238"
+            android:pathData="M68.5,61 h5 l1.5,9 h-8 z" />
+
+        <!-- Body -->
+        <path
+            android:fillColor="#D32F2F"
+            android:pathData="M48,45 h12 a7,7 0 0 1 7,7 v28 a5,5 0 0 1 -5,5 h-16 a5,5 0 0 1 -5,-5 v-28 a7,7 0 0 1 7,-7 z" />
+        <!-- Shading on the right edge -->
+        <path
+            android:fillColor="#B71C1C"
+            android:pathData="M61,45.3 a7,7 0 0 1 6,6.7 v28 a5,5 0 0 1 -5,5 h-1 z" />
+        <!-- Highlight on the left -->
+        <path
+            android:fillColor="#EF5350"
+            android:pathData="M45,52 h3 v28 h-3 z" />
+        <!-- Label -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M45,60 h18 v13 h-18 z" />
+        <path
+            android:fillColor="#D32F2F"
+            android:pathData="M50,64.5 h8 v1.8 h-8 z M50,68 h8 v1.8 h-8 z" />
+
+        <!-- Valve / neck -->
+        <path
+            android:fillColor="#455A64"
+            android:pathData="M50,37 h8 v8 h-8 z" />
+        <!-- Carry handle (horizontal) -->
+        <path
+            android:fillColor="#37474F"
+            android:pathData="M42,34 h18 a1.5,1.5 0 0 1 0,3 h-18 a1.5,1.5 0 0 1 0,-3 z" />
+        <!-- Squeeze lever (angled) -->
+        <path
+            android:fillColor="#37474F"
+            android:pathData="M55,34 l12,-6 l1.6,2.8 l-12,6 z" />
+    </group>
+</vector>
