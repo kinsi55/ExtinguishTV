@@ -6,8 +6,8 @@ apps with `pm disable-user`. Nothing is uninstalled, and every change can be und
 
 Not affiliated with or endorsed by Amazon. "Fire TV" is a trademark of Amazon.com, Inc.
 
-Why the fuck do I even need to any time into this bullshit I hate the current state of TVs, this TV
-was super sluggish because by default background apps fill up all of the ram and even swap.
+Why the fuck do I even need to spend any time on this bullshit I hate the current state of TVs,
+this TV was super sluggish because by default background apps fill up all of the ram and even swap.
 
 This is Vibecoded, I dont like Java and this matter calls for the least amount of effort.
 
